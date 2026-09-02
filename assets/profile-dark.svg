@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="你好，这里是 Kotorin. Computer Science / Software / AI / Homelab">
+  <title>你好，这里是 Kotorin.</title>
+
+  <!--
+    Dark 版 Header。颜色取自 miku-homepage 的 [data-theme='dark']：
+      bg #08131a / primary #eafcff / muted #8ca8b2
+      miku #39c5bb / secondary #009ab4 / accent #e3007f
+    不新造青色和粉色，也不加 glow。
+
+    右侧几何：只画双马尾，不画整个人，也不画头。
+    主页那版几何 Miku 是 360x460 的半身构图，直接压进 1200x300 只会剩下
+    「一个头加两条竖着的东西」，读起来像灯塔或者两条腿。
+    所以这里把头放到画面右外侧，只让两条马尾从右边扫进来、往左下收尖，
+    发圈是唯一说明「这是马尾」的细节。认得的人认得出来就够了。
+  -->
+
+  <rect width="1200" height="300" fill="#08131a"/>
+
+  <g>
+    <!-- 两条马尾：从右边扫进画面，往左下收尖，长短和角度都不对称 -->
+    <polygon points="1204,62 1096,124 1002,214 952,268 1024,206 1114,148 1204,102" fill="rgba(0,154,180,0.085)"/>
+    <polygon points="1204,150 1140,208 1086,266 1058,288 1112,240 1166,196 1204,182" fill="rgba(0,154,180,0.085)"/>
+
+    <!-- 发圈：整组图形里唯一稍微亮一点的地方，也是「这是双马尾」的关键 -->
+    <polygon points="1160,81 1178,70 1200,109 1182,120" fill="rgba(57,197,187,0.16)"/>
+    <polygon points="1161,175 1176,162 1199,187 1184,201" fill="rgba(57,197,187,0.16)"/>
+
+    <!-- 两根散出去的发丝，顺着马尾的方向散进留白里 -->
+    <g fill="none" stroke="rgba(125,249,255,0.13)" stroke-width="1">
+      <path d="M1180 40 L900 200"/>
+      <path d="M1150 24 L884 176"/>
+    </g>
+
+    <!-- 整张图唯一的粉色，就这么大 -->
+    <circle cx="1180" cy="95" r="3" fill="rgba(227,0,127,0.4)"/>
+  </g>
+
+  <!-- 01：和左下那行 mono 共用基线，藏在同一条看不见的网格上 -->
+  <text x="860" y="234"
+    font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="10" letter-spacing="3" fill="#39c5bb" opacity="0.3">01</text>
+
+  <!--
+    左侧主要信息。字体不做外部依赖，只给安全字体栈；
+    Segoe UI / Helvetica Neue / PingFang SC 都有真正的细字重，
+    落到 Arial 时会退成常规字重，这是可以接受的降级。
+    青色只落在名字上，其余交给 primary 和 muted。
+  -->
+  <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif">
+    <text x="64" y="100" font-size="44" font-weight="200" letter-spacing="1" fill="#8ca8b2">你好，</text>
+    <text x="64" y="158" font-size="44" font-weight="200" letter-spacing="1" fill="#eafcff">这里是 <tspan fill="#39c5bb">Kotorin.</tspan></text>
+    <text x="64" y="202" font-size="15" font-weight="400" letter-spacing="1.6" fill="#8ca8b2">Computer Science / Software / AI / Homelab</text>
+  </g>
+
+  <text x="64" y="234"
+    font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="11" letter-spacing="2.4" fill="#009ab4">WUHAN &#183; UTC+8</text>
+</svg>
