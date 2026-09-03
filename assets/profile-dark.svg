@@ -1,40 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="你好，这里是 Kotorin. Computer Science / Software / AI / Homelab">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="你好，这里是 Kotorin. Computer Science / Software / AI / Homelab. WUHAN · UTC+8">
   <title>你好，这里是 Kotorin.</title>
 
   <!--
-    Dark 版 Header。颜色取自 miku-homepage 的 [data-theme='dark']：
+    Dark 版封面。颜色取自 miku-homepage 的 [data-theme='dark']：
       bg #08131a / primary #eafcff / muted #8ca8b2
       miku #39c5bb / secondary #009ab4 / accent #e3007f
     不新造青色和粉色，也不加 glow。
 
+    字号跟着后面几页一起重新校准过。原来标题 44、副标题 15、mono 11，
+    在 880 的列宽里只显示成 32 / 11 / 8px，加了后面那几页（正文 22 等于
+    屏幕上 16px、标题 54 等于 40px）以后，封面反而是整叠里最小的一页。
+    现在改成标题 64、副标题 22、mono 15，屏幕上是 47 / 16 / 11px，
+    封面重新变成最大的一张，副标题和 mono 也跟其它页对齐了。
+    画布跟着从 300 加高到 380，否则 64px 的两行标题塞不下。
+
     右侧几何：沿用主页 FloatingTriangles 那一层背景三角形，不画人也不画头。
     形状、尺寸和旋转角都取自主页那套 PRNG 生成的值（polygon 50,5 95,90 5,90，
-    只描边不填充，stroke-width 1，颜色是主页的 color-brand-secondary），
-    位置按这张 1200x300 重新摆过：全部留在右侧，右上和右侧那两个越出画框，
-    读起来像从更大一片三角形里截出来的一角。
+    只描边不填充，stroke-width 1，颜色是主页的 color-brand-secondary）。
+    七个三角形和加高之前是同一批，只把重心按 380/300 等比下移，
+    所以右上和右下那两个仍然越出画框，读起来像从更大一片三角形里截出来的一角。
     顶点坐标是算好写死的，没有用 transform + scale，
     否则描边宽度会跟着每个三角形的大小一起缩，小的那几个会细到看不见。
   -->
 
-  <rect width="1200" height="300" fill="#08131a"/>
+  <rect width="1200" height="380" fill="#08131a"/>
 
   <g fill="none" stroke="#009ab4" stroke-width="1" stroke-opacity="0.45">
-    <polygon points="1226,121 1173,173 1153,106"/>
-    <polygon points="1204,19 1210,57 1176,45"/>
-    <polygon points="1013,299 1025,242 1067,277"/>
-    <polygon points="1081,168 1064,177 1064,159"/>
-    <polygon points="952,134 983,138 966,161"/>
-    <polygon points="921,206 900,205 911,188"/>
-    <polygon points="844,72 862,52 870,75"/>
+    <polygon points="1226,157 1173,209 1153,142"/>
+    <polygon points="1204,30 1210,68 1176,56"/>
+    <polygon points="1013,372 1025,315 1067,350"/>
+    <polygon points="1081,213 1064,222 1064,204"/>
+    <polygon points="952,172 983,176 966,199"/>
+    <polygon points="921,259 900,258 911,241"/>
+    <polygon points="844,90 862,70 870,93"/>
   </g>
 
   <!-- 整张图唯一的粉色：落在中间那个三角形的顶点上，当成一个节点标记 -->
-  <circle cx="952" cy="134" r="2.5" fill="#e3007f" fill-opacity="0.5"/>
+  <circle cx="952" cy="172" r="2.5" fill="#e3007f" fill-opacity="0.5"/>
 
   <!-- 01：和左下那行 mono 共用基线，藏在同一条看不见的网格上 -->
-  <text x="860" y="234"
+  <text x="860" y="322"
     font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-    font-size="10" letter-spacing="3" fill="#39c5bb" opacity="0.3">01</text>
+    font-size="13.5" letter-spacing="3" fill="#39c5bb" opacity="0.3">01</text>
 
   <!--
     左侧主要信息。字体不做外部依赖，只给安全字体栈；
@@ -43,12 +50,12 @@
     青色只落在名字上，其余交给 primary 和 muted。
   -->
   <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif">
-    <text x="64" y="100" font-size="44" font-weight="200" letter-spacing="1" fill="#8ca8b2">你好，</text>
-    <text x="64" y="158" font-size="44" font-weight="200" letter-spacing="1" fill="#eafcff">这里是 <tspan fill="#39c5bb">Kotorin.</tspan></text>
-    <text x="64" y="202" font-size="15" font-weight="400" letter-spacing="1.6" fill="#8ca8b2">Computer Science / Software / AI / Homelab</text>
+    <text x="64" y="132" font-size="64" font-weight="200" letter-spacing="1" fill="#8ca8b2">你好，</text>
+    <text x="64" y="216" font-size="64" font-weight="200" letter-spacing="1" fill="#eafcff">这里是 <tspan fill="#39c5bb">Kotorin.</tspan></text>
+    <text x="64" y="278" font-size="22" font-weight="400" letter-spacing="1.6" fill="#8ca8b2">Computer Science / Software / AI / Homelab</text>
   </g>
 
-  <text x="64" y="234"
+  <text x="64" y="322"
     font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-    font-size="11" letter-spacing="2.4" fill="#009ab4">WUHAN &#183; UTC+8</text>
+    font-size="15" letter-spacing="2.4" fill="#009ab4">WUHAN &#183; UTC+8</text>
 </svg>

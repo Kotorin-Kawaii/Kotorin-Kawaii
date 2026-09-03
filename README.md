@@ -10,15 +10,13 @@
   <img src="assets/about-dark.svg" alt="最近主要在搞 KAngel 和糖糖。一个本来只是想回弹幕，另一个本来只是想做个聊天 App。现在两个都越来越不像一开始想做的东西了。" width="100%">
 </picture>
 
-<a href="https://github.com/Kotorin-Kawaii/KAngel-Virtual-Streamer">
+<a href="https://kotorin-kawaii.github.io/KangelAI/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/kangel-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/kangel-light.svg">
-  <img src="assets/kangel-dark.svg" alt="01 · ACTIVE / PUBLIC — KAngel Virtual Streamer。最开始只是想做个能回复弹幕的超天酱。现在里面已经有主播状态、观众关系、长期记忆、直播上下文和一大堆防止模型乱来的东西。明显比一开始想的复杂多了。Python · FastAPI · SQLite · WebSocket。点击查看源码。" width="100%">
+  <img src="assets/kangel-dark.svg" alt="01 · ACTIVE / PUBLIC — KAngel Virtual Streamer。最开始只是想做个能回复弹幕的超天酱。现在里面已经有主播状态、观众关系、长期记忆、直播上下文和一大堆防止模型乱来的东西。明显比一开始想的复杂多了。Python · FastAPI · SQLite · WebSocket。点击打开直播实例。" width="100%">
 </picture>
 </a>
-
-<sub>[LIVE INSTANCE ↗](https://kotorin-kawaii.github.io/KangelAI/)</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/pocket-ame-dark.svg">
