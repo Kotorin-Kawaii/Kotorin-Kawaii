@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-label="01 · ACTIVE / PUBLIC — KAngel Virtual Streamer. 最开始只是想做个能回复弹幕的超天酱。现在里面已经有主播状态、观众关系、长期记忆、直播上下文和一大堆防止模型乱来的东西。明显比一开始想的复杂多了。PYTHON FASTAPI SQLITE WEBSOCKET. Source ↗">
+  <title>KAngel Virtual Streamer</title>
+
+  <!--
+    项目页 01。横版、信息密，整张图在 README 里被一个 a 标签包住指向仓库。
+    因为图本身就是链接，右下角那格没放年份角标，放的是 SOURCE 箭头：
+    一张可点的图如果没有任何提示，访客不会知道它能点。
+
+    版式语法全部来自主页 SectionLayout：
+      顶行是一对左右对齐的 mono 标签（编号青色 / 状态 muted），
+      正文 weight 300、行距 40、段距 66，
+      底行技术栈也是 mono 大写，写法照主页 projects.ts。
+    大标题走 primary 不走青色，青色只留给编号和 SOURCE 这种小字。
+
+    两道横线的 alpha 压到几乎看不见，是纸面纹理，不是分割线。
+    正文最宽一行到 x 约 526，右边整块留给三角形。
+  -->
+
+  <rect width="1200" height="620" fill="#08131a"/>
+
+  <g fill="none" stroke="#009ab4" stroke-width="1" stroke-opacity="0.45">
+    <polygon points="1137,202 1160,176 1171,206"/>
+    <polygon points="1005,328 1064,307 1055,365"/>
+    <polygon points="941,239 873,297 854,216"/>
+    <polygon points="931,439 977,403 987,457"/>
+    <polygon points="1107,471 1136,458 1134,488"/>
+    <polygon points="810,163 824,144 834,163"/>
+    <polygon points="763,361 763,412 721,389"/>
+    <polygon points="1183,95 1201,69 1214,95"/>
+  </g>
+
+  <line x1="64" y1="88" x2="1136" y2="88" stroke="#8ca8b2" stroke-width="1" stroke-opacity="0.14"/>
+  <line x1="64" y1="524" x2="1136" y2="524" stroke="#8ca8b2" stroke-width="1" stroke-opacity="0.09"/>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15" letter-spacing="3">
+    <text x="64" y="64" fill="#39c5bb">01</text>
+    <text x="1136" y="64" text-anchor="end" fill="#8ca8b2" opacity="0.85">ACTIVE / PUBLIC</text>
+  </g>
+
+  <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif">
+    <text x="64" y="170" font-size="54" font-weight="300" letter-spacing="1" fill="#eafcff">KAngel</text>
+    <text x="64" y="224" font-size="54" font-weight="200" letter-spacing="1" fill="#8ca8b2">Virtual Streamer</text>
+
+    <g font-size="22" font-weight="300" fill="#eafcff">
+      <text x="64" y="310">最开始只是想做个能回复弹幕的超天酱。</text>
+      <text x="64" y="376">现在里面已经有主播状态、观众关系、长期记忆、</text>
+      <text x="64" y="416">直播上下文和一大堆防止模型乱来的东西。</text>
+      <text x="64" y="482">明显比一开始想的复杂多了。</text>
+    </g>
+  </g>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15" letter-spacing="4" fill="#8ca8b2" opacity="0.8">
+    <text x="64" y="562">PYTHON</text>
+    <text x="200" y="562">FASTAPI</text>
+    <text x="350" y="562">SQLITE</text>
+    <text x="480" y="562">WEBSOCKET</text>
+  </g>
+
+  <text x="1136" y="562" text-anchor="end"
+    font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15" letter-spacing="3" fill="#39c5bb" opacity="0.75">SOURCE &#8599;</text>
+</svg>

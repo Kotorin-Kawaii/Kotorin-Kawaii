@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 704" width="1200" height="704" role="img" aria-label="MIKU · Linux · React · servers · VOCALOID · old computers · Homelab · networking · AI characters · audio · hardware* (* obviously not enough)。先这样，后面想到什么再改。KOTORIN / 2026 · STILL BUILDING">
+  <title>先这样，后面想到什么再改。</title>
+
+  <!--
+    痕迹页 + 版权页 Light 版。所有文字坐标和 dark 版一致。
+    三角形从 3 个减到 2 个（去掉最小的那个），描边不透明度 0.7。
+    三根斜线的 alpha 也提到 0.22：亮底上 0.16 基本看不见，
+    而这三根线是负责把散点串起来的，不能消失。
+  -->
+
+  <rect width="1200" height="704" fill="#edf7f7"/>
+
+  <g fill="none" stroke="#39c5bb" stroke-width="1" stroke-opacity="0.7">
+    <polygon points="1091,204 1125,209 1106,236"/>
+    <polygon points="991,471 1008,417 1045,454"/>
+  </g>
+
+  <g stroke="#39c5bb" stroke-width="1" stroke-opacity="0.22">
+    <line x1="64" y1="216" x2="330" y2="168"/>
+    <line x1="620" y1="300" x2="1110" y2="232"/>
+    <line x1="330" y1="470" x2="900" y2="520"/>
+  </g>
+
+  <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif">
+    <text x="64" y="88" font-size="56" font-weight="200" letter-spacing="2" fill="#08131a">MIKU</text>
+    <text x="396" y="196" font-size="48" font-weight="200" letter-spacing="1" fill="#08131a">servers</text>
+    <text x="396" y="400" font-size="48" font-weight="200" letter-spacing="1" fill="#08131a">AI characters</text>
+
+    <g font-size="30" font-weight="300" fill="#5e7480">
+      <text x="560" y="88">Linux</text>
+      <text x="232" y="330">Homelab</text>
+      <text x="64" y="460">hardware*</text>
+    </g>
+  </g>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15" letter-spacing="4" fill="#5e7480" opacity="0.85">
+    <text x="232" y="152">React</text>
+    <text x="64" y="266">VOCALOID</text>
+    <text x="760" y="266">old computers</text>
+    <text x="520" y="330">networking</text>
+    <text x="880" y="400">audio</text>
+  </g>
+
+  <text x="64" y="496"
+    font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="13.5" letter-spacing="1" fill="#5e7480" opacity="0.7">* obviously not enough</text>
+
+  <line x1="64" y1="566" x2="1136" y2="566" stroke="#5e7480" stroke-width="1" stroke-opacity="0.18"/>
+
+  <text x="64" y="612"
+    font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif"
+    font-size="22" font-weight="300" fill="#5e7480">先这样，后面想到什么再改。</text>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15" letter-spacing="3">
+    <text x="64" y="652" fill="#009ab4" opacity="0.9">KOTORIN / 2026</text>
+    <text x="1136" y="652" text-anchor="end" fill="#5e7480" opacity="0.65">STILL BUILDING</text>
+  </g>
+</svg>

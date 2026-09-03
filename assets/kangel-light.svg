@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-label="01 · ACTIVE / PUBLIC — KAngel Virtual Streamer. 最开始只是想做个能回复弹幕的超天酱。现在里面已经有主播状态、观众关系、长期记忆、直播上下文和一大堆防止模型乱来的东西。明显比一开始想的复杂多了。PYTHON FASTAPI SQLITE WEBSOCKET. Source ↗">
+  <title>KAngel Virtual Streamer</title>
+
+  <!--
+    项目页 01 Light 版。所有文字坐标和 dark 版一致。
+    去掉了最小的两个三角形（原来 8 个，这里 6 个），描边不透明度提到 0.7。
+    两道横线换成 muted 的深色，alpha 比 dark 版稍高一点，
+    否则在 #edf7f7 上直接消失。
+  -->
+
+  <rect width="1200" height="620" fill="#edf7f7"/>
+
+  <g fill="none" stroke="#39c5bb" stroke-width="1" stroke-opacity="0.7">
+    <polygon points="1137,202 1160,176 1171,206"/>
+    <polygon points="1005,328 1064,307 1055,365"/>
+    <polygon points="941,239 873,297 854,216"/>
+    <polygon points="931,439 977,403 987,457"/>
+    <polygon points="1107,471 1136,458 1134,488"/>
+    <polygon points="763,361 763,412 721,389"/>
+  </g>
+
+  <line x1="64" y1="88" x2="1136" y2="88" stroke="#5e7480" stroke-width="1" stroke-opacity="0.2"/>
+  <line x1="64" y1="524" x2="1136" y2="524" stroke="#5e7480" stroke-width="1" stroke-opacity="0.13"/>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15" letter-spacing="3">
+    <text x="64" y="64" fill="#009ab4">01</text>
+    <text x="1136" y="64" text-anchor="end" fill="#5e7480" opacity="0.85">ACTIVE / PUBLIC</text>
+  </g>
+
+  <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif">
+    <text x="64" y="170" font-size="54" font-weight="300" letter-spacing="1" fill="#08131a">KAngel</text>
+    <text x="64" y="224" font-size="54" font-weight="200" letter-spacing="1" fill="#5e7480">Virtual Streamer</text>
+
+    <g font-size="22" font-weight="300" fill="#08131a">
+      <text x="64" y="310">最开始只是想做个能回复弹幕的超天酱。</text>
+      <text x="64" y="376">现在里面已经有主播状态、观众关系、长期记忆、</text>
+      <text x="64" y="416">直播上下文和一大堆防止模型乱来的东西。</text>
+      <text x="64" y="482">明显比一开始想的复杂多了。</text>
+    </g>
+  </g>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15" letter-spacing="4" fill="#5e7480" opacity="0.85">
+    <text x="64" y="562">PYTHON</text>
+    <text x="200" y="562">FASTAPI</text>
+    <text x="350" y="562">SQLITE</text>
+    <text x="480" y="562">WEBSOCKET</text>
+  </g>
+
+  <text x="1136" y="562" text-anchor="end"
+    font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15" letter-spacing="3" fill="#009ab4" opacity="0.8">SOURCE &#8599;</text>
+</svg>

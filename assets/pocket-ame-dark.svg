@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" role="img" aria-label="02 · ACTIVE / PRIVATE — Pocket Ame 口袋糖糖。如果用户没有发消息，她在干嘛？我不太想让答案永远是：WAITING_FOR_USER_MESSAGE。ACTIVITY / WORLD STATE / MEMORY / AUTONOMY · PRIVATE / 2026">
+  <title>Pocket Ame 口袋糖糖</title>
+
+  <!--
+    项目页 02。构图故意不复制 01：正文整块缩进到 x 200，留白更多，
+    字更大，问句是全页视觉重心（32px，比任何正文都大）。
+    底部也没有 01 那道横线，两页放在一起翻的时候节奏才不一样。
+
+    只有顶行和底行还贴在 x 64 上，让它和其它几页共用同一个外框。
+    仓库是私有的，所以这页不加链接、右下角也不放 SOURCE 箭头，
+    照主页 projects.ts 的规矩：没有的链接就不画。
+
+    WAITING_FOR_USER_MESSAGE 没有底色块，就是一行浮在留白里的等宽字，
+    一加背景就变回 code block，也就变回 terminal 味了。
+
+    三角形比 01 少、更大、更散，配合这页更空的排版。
+  -->
+
+  <rect width="1200" height="720" fill="#08131a"/>
+
+  <g fill="none" stroke="#009ab4" stroke-width="1" stroke-opacity="0.45">
+    <polygon points="1064,153 990,252 941,148"/>
+    <polygon points="875,441 919,483 865,501"/>
+    <polygon points="1147,315 1159,388 1093,366"/>
+    <polygon points="777,249 752,270 745,240"/>
+    <polygon points="1073,578 1021,576 1045,534"/>
+  </g>
+
+  <line x1="64" y1="88" x2="1136" y2="88" stroke="#8ca8b2" stroke-width="1" stroke-opacity="0.14"/>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15" letter-spacing="3">
+    <text x="64" y="64" fill="#39c5bb">02</text>
+    <text x="1136" y="64" text-anchor="end" fill="#8ca8b2" opacity="0.85">ACTIVE / PRIVATE</text>
+  </g>
+
+  <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif">
+    <text x="200" y="200" font-size="52" font-weight="300" letter-spacing="1" fill="#eafcff">Pocket Ame</text>
+    <text x="200" y="258" font-size="52" font-weight="200" letter-spacing="3" fill="#8ca8b2">口袋糖糖</text>
+
+    <g font-size="32" font-weight="300" fill="#eafcff">
+      <text x="200" y="390">如果用户没有发消息，</text>
+      <text x="200" y="436">她在干嘛？</text>
+    </g>
+
+    <text x="200" y="520" font-size="22" font-weight="300" fill="#8ca8b2">我不太想让答案永远是：</text>
+  </g>
+
+  <text x="200" y="578"
+    font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="20" letter-spacing="5" fill="#39c5bb" opacity="0.5">WAITING_FOR_USER_MESSAGE</text>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15" letter-spacing="3" fill="#8ca8b2" opacity="0.8">
+    <text x="64" y="678">ACTIVITY / WORLD STATE / MEMORY / AUTONOMY</text>
+    <text x="1136" y="678" text-anchor="end" opacity="0.7">PRIVATE / 2026</text>
+  </g>
+</svg>

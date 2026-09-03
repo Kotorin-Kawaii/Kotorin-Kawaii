@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="最近主要在搞 KAngel 和糖糖。一个本来只是想回弹幕，另一个本来只是想做个聊天 App。现在两个都越来越不像一开始想做的东西了。">
+  <title>最近主要在搞 KAngel 和糖糖。</title>
+
+  <!--
+    引子页 Light 版。文字坐标和 dark 版完全一致，一个像素都没动：
+    GitHub 切主题时是直接换图，位置一变文字就会跳一下，看着像渲染出错。
+
+    两版真正的差别只有两处：
+      1. 三角形少一个（去掉最小的那个），亮底上不至于变成噪点
+      2. 描边不透明度反而更高（0.7 对 0.45）。薄荷青画在 #edf7f7 上
+         本来就比画在深底上弱，等 alpha 会显得更淡，两版才需要不同的值
+  -->
+
+  <rect width="1200" height="380" fill="#edf7f7"/>
+
+  <line x1="64" y1="64" x2="160" y2="64" stroke="#5e7480" stroke-width="1" stroke-opacity="0.4"/>
+
+  <g fill="none" stroke="#39c5bb" stroke-width="1" stroke-opacity="0.7">
+    <polygon points="1120,100 1136,29 1188,73"/>
+    <polygon points="933,107 857,150 854,68"/>
+    <polygon points="940,239 960,260 935,267"/>
+    <polygon points="812,60 753,87 757,26"/>
+  </g>
+
+  <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif"
+    font-size="22" font-weight="300" fill="#08131a">
+    <text x="64" y="140">最近主要在搞 KAngel 和糖糖。</text>
+    <text x="64" y="206">一个本来只是想回弹幕，</text>
+    <text x="64" y="246">另一个本来只是想做个聊天 App。</text>
+    <text x="64" y="312">现在两个都越来越不像一开始想做的东西了。</text>
+  </g>
+</svg>

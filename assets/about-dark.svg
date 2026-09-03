@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="最近主要在搞 KAngel 和糖糖。一个本来只是想回弹幕，另一个本来只是想做个聊天 App。现在两个都越来越不像一开始想做的东西了。">
+  <title>最近主要在搞 KAngel 和糖糖。</title>
+
+  <!--
+    引子页。整页只有三段话，没有标题、没有编号、没有 eyebrow。
+    左上角那道短横线是章节起始标记，代替 Markdown 里的水平分割线。
+
+    字号按缩放倒推：Profile 正文列宽约 880，1200 宽的图会被缩到 0.733 倍，
+    所以正文写 22 才等于屏幕上 16px。行距 40，段距 66，抄的是主页
+    SectionLayout 里 line-height 1.8 的关系。
+
+    Light 版文字坐标和这版逐像素一致，只差三角形数量和描边强度。
+  -->
+
+  <rect width="1200" height="380" fill="#08131a"/>
+
+  <line x1="64" y1="64" x2="160" y2="64" stroke="#8ca8b2" stroke-width="1" stroke-opacity="0.4"/>
+
+  <g fill="none" stroke="#009ab4" stroke-width="1" stroke-opacity="0.45">
+    <polygon points="1120,100 1136,29 1188,73"/>
+    <polygon points="1006,187 1030,186 1020,206"/>
+    <polygon points="933,107 857,150 854,68"/>
+    <polygon points="940,239 960,260 935,267"/>
+    <polygon points="812,60 753,87 757,26"/>
+  </g>
+
+  <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif"
+    font-size="22" font-weight="300" fill="#eafcff">
+    <text x="64" y="140">最近主要在搞 KAngel 和糖糖。</text>
+    <text x="64" y="206">一个本来只是想回弹幕，</text>
+    <text x="64" y="246">另一个本来只是想做个聊天 App。</text>
+    <text x="64" y="312">现在两个都越来越不像一开始想做的东西了。</text>
+  </g>
+</svg>

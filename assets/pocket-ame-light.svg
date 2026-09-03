@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" role="img" aria-label="02 · ACTIVE / PRIVATE — Pocket Ame 口袋糖糖。如果用户没有发消息，她在干嘛？我不太想让答案永远是：WAITING_FOR_USER_MESSAGE。ACTIVITY / WORLD STATE / MEMORY / AUTONOMY · PRIVATE / 2026">
+  <title>Pocket Ame 口袋糖糖</title>
+
+  <!--
+    项目页 02 Light 版。文字坐标和 dark 版一致，三角形少一个（去掉最小的），
+    描边不透明度 0.7。
+    WAITING_FOR_USER_MESSAGE 用 light 主题的 brand 青 #009ab4，
+    不透明度 0.6：亮底上 0.5 会淡到读不出来，而这一行是要能读的。
+  -->
+
+  <rect width="1200" height="720" fill="#edf7f7"/>
+
+  <g fill="none" stroke="#39c5bb" stroke-width="1" stroke-opacity="0.7">
+    <polygon points="1064,153 990,252 941,148"/>
+    <polygon points="875,441 919,483 865,501"/>
+    <polygon points="1147,315 1159,388 1093,366"/>
+    <polygon points="1073,578 1021,576 1045,534"/>
+  </g>
+
+  <line x1="64" y1="88" x2="1136" y2="88" stroke="#5e7480" stroke-width="1" stroke-opacity="0.2"/>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15" letter-spacing="3">
+    <text x="64" y="64" fill="#009ab4">02</text>
+    <text x="1136" y="64" text-anchor="end" fill="#5e7480" opacity="0.85">ACTIVE / PRIVATE</text>
+  </g>
+
+  <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif">
+    <text x="200" y="200" font-size="52" font-weight="300" letter-spacing="1" fill="#08131a">Pocket Ame</text>
+    <text x="200" y="258" font-size="52" font-weight="200" letter-spacing="3" fill="#5e7480">口袋糖糖</text>
+
+    <g font-size="32" font-weight="300" fill="#08131a">
+      <text x="200" y="390">如果用户没有发消息，</text>
+      <text x="200" y="436">她在干嘛？</text>
+    </g>
+
+    <text x="200" y="520" font-size="22" font-weight="300" fill="#5e7480">我不太想让答案永远是：</text>
+  </g>
+
+  <text x="200" y="578"
+    font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="20" letter-spacing="5" fill="#009ab4" opacity="0.6">WAITING_FOR_USER_MESSAGE</text>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="15" letter-spacing="3" fill="#5e7480" opacity="0.85">
+    <text x="64" y="678">ACTIVITY / WORLD STATE / MEMORY / AUTONOMY</text>
+    <text x="1136" y="678" text-anchor="end" opacity="0.7">PRIVATE / 2026</text>
+  </g>
+</svg>
