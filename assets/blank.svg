@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1" width="1200" height="1">
+  <!--
+    占位用的透明图，不画任何东西。
+    每一页都有桌面和手机两个 picture，靠断点让其中一个换成这张：
+    宽 1200 高 1，缩放后高度不到一像素，等于不占地方。
+    这样做的原因见 README：GitHub 的 themed-picture 会重写带
+    prefers-color-scheme 的 media，所以断点不能和主题写在同一个查询里。
+  -->
+</svg>

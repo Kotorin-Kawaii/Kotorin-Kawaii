@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 540" width="700" height="540" role="img" aria-label="你好，这里是 Kotorin. Computer Science / Software / AI / Homelab. WUHAN · UTC+8">
+  <title>你好，这里是 Kotorin.</title>
+
+  <!--
+    封面手机版。不是把 1200 那版压窄，是重新排的一版。
+
+    换算：手机上 README 正文列宽约 350px，画布 700 宽，所以缩放正好 0.5×，
+    viewBox 里的数字除以二就是屏幕上的 px。桌面版是 0.733×（1200 到 880），
+    同一个 22 在手机上只剩 6.4px，所以两版不能共用一套字号。
+
+    标题因此拆成三行：拆行不是为了塞进去，是为了能把字号从 64 提到 76
+    （屏幕上 38px），封面在手机上还是封面。
+    青色仍然只落在 Kotorin. 上，这里它自己占一行。
+
+    左右边距 40（屏幕上 20px），比桌面版 64 相对更窄：
+    手机上按比例留白会把可用行宽吃掉太多。
+    描边宽度 1.5 而不是 1，缩放后才和桌面版一样是 0.75px 的发丝线。
+  -->
+
+  <rect width="700" height="540" fill="#08131a"/>
+
+  <g fill="none" stroke="#009ab4" stroke-width="1.5" stroke-opacity="0.45">
+    <polygon points="532,163 552,72 618,129"/>
+    <polygon points="708,239 628,308 606,212"/>
+    <polygon points="513,445 513,505 463,479"/>
+  </g>
+
+  <!-- 整张图唯一的粉色，落在第一个三角形的顶点上 -->
+  <circle cx="618" cy="129" r="3.5" fill="#e3007f" fill-opacity="0.5"/>
+
+  <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif">
+    <text x="40" y="120" font-size="76" font-weight="200" letter-spacing="1" fill="#8ca8b2">你好，</text>
+    <text x="40" y="212" font-size="76" font-weight="200" letter-spacing="1" fill="#eafcff">这里是</text>
+    <text x="40" y="304" font-size="76" font-weight="200" letter-spacing="1" fill="#39c5bb">Kotorin.</text>
+
+    <g font-size="28" font-weight="400" letter-spacing="1.6" fill="#8ca8b2">
+      <text x="40" y="384">Computer Science /</text>
+      <text x="40" y="420">Software / AI / Homelab</text>
+    </g>
+  </g>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="20" letter-spacing="3.2">
+    <text x="40" y="486" fill="#39c5bb">WUHAN &#183; UTC+8</text>
+    <text x="660" y="486" text-anchor="end" fill="#39c5bb" opacity="0.34">01</text>
+  </g>
+</svg>

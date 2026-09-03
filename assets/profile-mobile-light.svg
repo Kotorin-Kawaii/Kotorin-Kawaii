@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 540" width="700" height="540" role="img" aria-label="你好，这里是 Kotorin. Computer Science / Software / AI / Homelab. WUHAN · UTC+8">
+  <title>你好，这里是 Kotorin.</title>
+
+  <!--
+    封面手机版 Light。文字坐标和 mobile dark 版逐像素一致，
+    只差三角形数量（少最小的那个）和描边不透明度（0.7 对 0.45）。
+    理由和桌面两版一样：薄荷青画在 #edf7f7 上本来就比深底弱。
+  -->
+
+  <rect width="700" height="540" fill="#edf7f7"/>
+
+  <g fill="none" stroke="#39c5bb" stroke-width="1.5" stroke-opacity="0.7">
+    <polygon points="532,163 552,72 618,129"/>
+    <polygon points="708,239 628,308 606,212"/>
+  </g>
+
+  <circle cx="618" cy="129" r="3.5" fill="#e3007f" fill-opacity="0.6"/>
+
+  <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif">
+    <text x="40" y="120" font-size="76" font-weight="200" letter-spacing="1" fill="#5e7480">你好，</text>
+    <text x="40" y="212" font-size="76" font-weight="200" letter-spacing="1" fill="#08131a">这里是</text>
+    <text x="40" y="304" font-size="76" font-weight="200" letter-spacing="1" fill="#009ab4">Kotorin.</text>
+
+    <g font-size="28" font-weight="400" letter-spacing="1.6" fill="#5e7480">
+      <text x="40" y="384">Computer Science /</text>
+      <text x="40" y="420">Software / AI / Homelab</text>
+    </g>
+  </g>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="20" letter-spacing="3.2">
+    <text x="40" y="486" fill="#009ab4">WUHAN &#183; UTC+8</text>
+    <text x="660" y="486" text-anchor="end" fill="#009ab4" opacity="0.34">01</text>
+  </g>
+</svg>

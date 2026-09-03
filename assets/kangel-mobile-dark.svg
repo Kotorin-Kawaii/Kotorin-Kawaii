@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 850" width="700" height="850" role="img" aria-label="01 · ACTIVE / PUBLIC — KAngel Virtual Streamer. 最开始只是想做个能回复弹幕的超天酱。现在里面已经有主播状态、观众关系、长期记忆、直播上下文和一大堆防止模型乱来的东西。明显比一开始想的复杂多了。PYTHON FASTAPI SQLITE WEBSOCKET. Live instance ↗">
+  <title>KAngel Virtual Streamer</title>
+
+  <!--
+    项目页 01 手机版。桌面版是横的，这版必然变竖：正文一行只剩十一二个汉字，
+    所以整页从 620 高变成 850 高，信息量没减，行数变多。
+
+    断行都落在词或顿号边界上：
+      最开始只是想做个能回复 / 弹幕的超天酱。
+      现在里面已经有主播状态、/ 观众关系、长期记忆、/ 直播上下文和一大堆 / 防止模型乱来的东西。
+    三行连着以 、结尾，读起来正好是清单的语气。
+
+    技术栈一行放不下四个词，拆成两行、中间用 · 分隔，写法照主页 projects.ts。
+    LIVE INSTANCE 箭头还是压在右下角，和第二行技术栈同一条基线：
+    整张图被 a 标签包住指向在跑的那个直播实例，手机上尤其需要一个能看出可点的记号。
+
+    右侧三角形从桌面版的 8 个砍到 5 个。窄列里正文本来就贴着几何，
+    再多两个下半页就变成装饰压着字。
+  -->
+
+  <rect width="700" height="850" fill="#08131a"/>
+
+  <g fill="none" stroke="#009ab4" stroke-width="1.5" stroke-opacity="0.45">
+    <polygon points="542,157 570,126 583,162"/>
+    <polygon points="632,237 669,272 624,288"/>
+    <polygon points="495,364 521,390 488,400"/>
+    <polygon points="649,482 573,517 578,439"/>
+    <polygon points="706,595 624,650 615,559"/>
+  </g>
+
+  <line x1="40" y1="72" x2="660" y2="72" stroke="#8ca8b2" stroke-width="1.5" stroke-opacity="0.14"/>
+  <line x1="40" y1="724" x2="660" y2="724" stroke="#8ca8b2" stroke-width="1.5" stroke-opacity="0.09"/>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="20" letter-spacing="3.5">
+    <text x="40" y="52" fill="#39c5bb">01</text>
+    <text x="660" y="52" text-anchor="end" fill="#8ca8b2" opacity="0.85">ACTIVE / PUBLIC</text>
+  </g>
+
+  <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif">
+    <text x="40" y="150" font-size="48" font-weight="300" letter-spacing="1" fill="#eafcff">KAngel</text>
+    <text x="40" y="204" font-size="48" font-weight="200" letter-spacing="1" fill="#8ca8b2">Virtual Streamer</text>
+
+    <g font-size="30" font-weight="300" fill="#eafcff">
+      <text x="40" y="290">最开始只是想做个能回复</text>
+      <text x="40" y="344">弹幕的超天酱。</text>
+
+      <text x="40" y="428">现在里面已经有主播状态、</text>
+      <text x="40" y="482">观众关系、长期记忆、</text>
+      <text x="40" y="536">直播上下文和一大堆</text>
+      <text x="40" y="590">防止模型乱来的东西。</text>
+
+      <text x="40" y="674">明显比一开始想的复杂多了。</text>
+    </g>
+  </g>
+
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="20" letter-spacing="3.5" fill="#8ca8b2" opacity="0.8">
+    <text x="40" y="764">PYTHON &#183; FASTAPI</text>
+    <text x="40" y="800">SQLITE &#183; WEBSOCKET</text>
+  </g>
+
+  <text x="660" y="800" text-anchor="end"
+    font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="20" letter-spacing="3" fill="#39c5bb" opacity="0.75">LIVE INSTANCE &#8599;</text>
+</svg>

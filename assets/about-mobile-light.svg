@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" width="700" height="520" role="img" aria-label="最近主要在搞 KAngel 和糖糖。一个本来只是想回弹幕，另一个本来只是想做个聊天 App。现在两个都越来越不像一开始想做的东西了。">
+  <title>最近主要在搞 KAngel 和糖糖。</title>
+
+  <!--
+    引子手机版 Light。文字坐标和 mobile dark 一致，三角形少最小的那个。
+  -->
+
+  <rect width="700" height="520" fill="#edf7f7"/>
+
+  <g fill="none" stroke="#39c5bb" stroke-width="1.5" stroke-opacity="0.7">
+    <polygon points="581,97 630,103 603,140"/>
+    <polygon points="684,330 638,354 639,305"/>
+    <polygon points="614,183 652,228 599,240"/>
+  </g>
+
+  <line x1="40" y1="56" x2="120" y2="56" stroke="#009ab4" stroke-width="1.5" stroke-opacity="0.55"/>
+
+  <g font-family="Inter, 'Helvetica Neue', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif"
+    font-size="30" font-weight="300" fill="#08131a">
+    <text x="40" y="140">最近主要在搞 KAngel 和糖糖。</text>
+
+    <text x="40" y="230">一个本来只是想回弹幕，</text>
+    <text x="40" y="284">另一个本来只是想做个聊天 App。</text>
+
+    <text x="40" y="374">现在两个都越来越不像</text>
+    <text x="40" y="428">一开始想做的东西了。</text>
+  </g>
+</svg>
