@@ -30,4 +30,4 @@
   <img src="assets/traces-dark.svg" alt="MIKU · Linux · React · servers · VOCALOID · old computers · Homelab · networking · AI characters · audio · hardware*（* obviously not enough）。先这样，后面想到什么再改。Kotorin · 2026 · still building" width="100%">
 </picture>
 
-<sub>[home.kotorin.cn](https://home.kotorin.cn) &nbsp;·&nbsp; [Repositories](https://github.com/Kotorin-Kawaii?tab=repositories) &nbsp;·&nbsp; [kotorinkawaii@gmail.com](mailto:kotorinkawaii@gmail.com)</sub>
+<sub>[kotorin.cn](https://kotorin.cn) &nbsp;·&nbsp; [Repositories](https://github.com/Kotorin-Kawaii?tab=repositories) &nbsp;·&nbsp; [kotorinkawaii@gmail.com](mailto:kotorinkawaii@gmail.com)</sub>
